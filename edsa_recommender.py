@@ -45,7 +45,7 @@ def main():
 
     # DO NOT REMOVE the 'Recommender System' option below, however,
     # you are welcome to add more options to enrich your app.
-    page_options = ["Recommender System","Solution Overview"]
+    page_options = ["Recommender System","Solution Overview", "Exploratory Data Analysis", "About The App","Instruction of Use"]
 
     # -------------------------------------------------------------------
     # ----------- !! THIS CODE MUST NOT BE ALTERED !! -------------------
@@ -106,7 +106,11 @@ def main():
 
     # You may want to add more sections here for aspects such as an EDA,
     # or to provide your business pitch.
+    if page_selection == "About The App":
+        #st.image('resources/imgs/star-wars-rise-of-skywalker-header.jpg',width = 600)
+        st.title("Welcome to the Recommender System Machine Learning App")
 
 
+        #st.image('resources/imgs/Freaks.jpeg',width = 600)
 if __name__ == '__main__':
     main()
