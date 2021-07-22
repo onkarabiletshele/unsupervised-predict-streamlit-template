@@ -47,9 +47,9 @@ def main():
 
     # DO NOT REMOVE the 'Recommender System' option below, however,
     # you are welcome to add more options to enrich your app.
-    page_options = ["Home","Recommender System", "Exploratory Data Analysis", "Solution Overview"]
+    page_options = ["Recommender System", "Exploratory Data Analysis", "Solution Overview"]
 
-    st.sidebar.image("video-orange-play-button-icon-24506.png", use_column_width=True)
+    st.sidebar.image("default.png", use_column_width=True)
     # -------------------------------------------------------------------
     # ----------- !! THIS CODE MUST NOT BE ALTERED !! -------------------
     # -------------------------------------------------------------------
@@ -110,11 +110,6 @@ def main():
         st.image("model-based.png")
         st.write("Memory based approaches — also often referred to as neighbourhood collaborative filtering. Essentially, ratings of user-item combinations are predicted on the basis of their neighbourhoods. This can be further split into user based collaborative filtering and item based collaborative filtering. User based essentially means that likeminded users are going to yield strong and similar recommendations. Item based collaborative filtering recommends items based on the similarity between items calculated using user ratings of those items.")
         st.write("Model based approaches — are predictive models using machine learning. Features associated to the dataset are parameterized as inputs of the model to try to solve an optimization related problem. Model based approaches include using things like decision trees, rule based approaches, latent factor models etc.")
-
-
-    if page_selection == "Home":
- 
-        st.image('default.png')
 
     if page_selection == "Exploratory Data Analysis":
         title_eda = """
