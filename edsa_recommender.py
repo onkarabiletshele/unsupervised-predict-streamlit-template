@@ -119,7 +119,7 @@ def main():
 
         st.image('Exploratory-Analysis-Banner-940px.jpg',use_column_width=True)
     
-        sys_eda = st.selectbox("Choose an EDA section",
+        sys_eda = st.selectbox("Choose an EDA section suitable for you",
         ('Ratings','Movies','Directors','Genres'))
 
         if sys_eda == "Ratings":
