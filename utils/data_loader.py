@@ -15,7 +15,8 @@ def load_movie_titles(path_to_movies):
     Parameters
     ----------
     path_to_movies : str
-        Relative or absolute path to movie database stored
+        Relative or absolute path to movi
+        e database stored
         in .csv format.
 
     Returns
